@@ -1,0 +1,29 @@
+# python
+__pycache__/
+*.pyc
+
+# conda
+.env
+
+# model
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# vector database
+faiss_index/
+*.index
+
+# logs
+*.log
+
+# data
+data/
+documents/
+
+# vscode
+.vscode/
+
+# cache
+.cache/
